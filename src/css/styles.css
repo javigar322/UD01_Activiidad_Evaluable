@@ -1,0 +1,109 @@
+/* ==========================================================================
+   Estilos para la Aplicación de Reserva de Libros en la Biblioteca
+   ========================================================================== */
+
+/* Encabezado
+========================================================================== */
+
+/*
+  Este archivo CSS contiene los estilos utilizados en la aplicación de reserva de libros en la biblioteca.
+  Los estilos se dividen en secciones para una fácil navegación y mantenimiento.
+
+  Estructura del archivo CSS:
+    1. Estilos generales
+    2. Estilos para botones
+    3. Estilos para formularios
+    4. Estilos para listas
+    5. Estilos para notificaciones
+    6. Otras clases y estilos personalizados
+
+  Puedes agregar estilos adicionales según sea necesario para la interfaz de usuario de la aplicación.
+*/
+
+/* Estilos Generales
+========================================================================== */
+
+/* Define estilos generales, como tipografía, fondo y márgenes globales. */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para Botones
+========================================================================== */
+
+/*
+  Define estilos para botones utilizados en la aplicación, como colores de fondo, bordes y efectos de hover.
+  Asegúrate de aplicar estas clases a los elementos HTML de botón según sea necesario.
+*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para Formularios
+========================================================================== */
+
+/* Define estilos para formularios, como tamaños de campo, colores y espaciado. */
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilos para Listas
+========================================================================== */
+
+/* Define estilos para listas, como márgenes, espaciado y formato de lista. */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para Notificaciones
+========================================================================== */
+
+/*
+  Define estilos para notificaciones que aparecen en la interfaz de usuario, como colores de fondo, bordes y posición.
+  Puedes personalizar estos estilos según tus preferencias de diseño.
+*/
+
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    z-index: 1000;
+}
+
+/* Otras Clases y Estilos Personalizados
+========================================================================== */
+
+/*
+  Aquí puedes agregar clases y estilos personalizados adicionales según las necesidades específicas de tu aplicación.
+  Mantén la estructura del archivo organizada para facilitar la lectura y el mantenimiento.
+*/
